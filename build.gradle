@@ -1,0 +1,26 @@
+plugins {
+    id 'java'
+}
+
+group 'tk.zytekaron.spigot.commando'
+version '1.0.0'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+    // repositories for spigot
+    maven { url = 'https://hub.spigotmc.org/nexus/content/repositories/snapshots/' }
+    maven { url = 'https://oss.sonatype.org/content/repositories/snapshots' }
+}
+
+dependencies {
+    testCompile 'junit:junit:4.12'
+
+    // JetBrains Annotations (@NotNull, @Nullable)
+    compile 'org.jetbrains:annotations:16.0.2'
+
+    // Spigot API 1.15
+    compileOnly 'org.spigotmc:spigot-api:1.8-R0.1-SNAPSHOT'
+    testCompile 'org.spigotmc:spigot-api:1.15.2-R0.1-SNAPSHOT'
+}

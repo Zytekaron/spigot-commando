@@ -2,8 +2,9 @@
 ### Minecraft Version: 1.8+
 [![](https://jitpack.io/v/tk.zytekaron/spigot-commando.svg)](https://jitpack.io/#tk.zytekaron/spigot-commando)
 
-This package was created to simplify the creation and registration of commands dynamically
-<u>You do not need to declare commands in your plugin.yml if you use this</u>
+This package was created to simplify the creation and registration of commands dynamically.
+
+<u>You do not need to declare your commands in the `plugin.yml` when using this.</u>
 
 <br/>
 

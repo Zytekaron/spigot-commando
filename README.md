@@ -30,10 +30,11 @@ depencencies {
     </repository>
 </repositories>
 ```
+
 ```xml
 <dependencies>
     <dependency>
-        <groupId>org.github.zytekaron</groupId>
+        <groupId>com.github.zytekaron</groupId>
         <artifactId>spigot-commando</artifactId>
         <version>1.0.0</version>
     </dependency>

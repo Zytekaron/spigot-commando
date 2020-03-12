@@ -96,4 +96,4 @@ public class HelpCommand extends BaseCommand {
 <br/>
 
 ## License
-<b>spigot-commando</b> is licensed under the [GNU Lesser General Public License Version 3](https://github.com/Zytekaron/spigot-commando/blob/master/LICENSE.txt)
+<b>spigot-commando</b> is licensed under the [GNU Lesser General Public License Version 3](https://github.com/Zytekaron/spigot-commando/blob/master/LICENSE)
